@@ -29,7 +29,7 @@ import lombok.extern.log4j.Log4j2;
 @EnableMethodSecurity
 public class CustomSecurityConfig {
 
-	@Bean
+	@Bean // test
 	public SecurityFilterChain filterchain(HttpSecurity http) throws Exception {
 		log.info("################### security config ######################");
 
